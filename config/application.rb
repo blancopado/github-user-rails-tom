@@ -8,6 +8,9 @@ Bundler.require(*Rails.groups)
 
 module GithubUserSearch
   class Application < Rails::Application
+
+
+        config.assets.paths << Rails.root.join("vendor","assets","bower_components")
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
@@ -24,3 +27,6 @@ module GithubUserSearch
     config.active_record.raise_in_transactional_callbacks = true
   end
 end
+
+
+

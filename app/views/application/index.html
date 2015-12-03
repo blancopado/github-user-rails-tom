@@ -1,4 +1,4 @@
-<body ng-controller="GitUserSearchController as searchCtrl">
+
   <div>
     <form class="form-horizontal" name="myForm">
       <input type="text" name="mySearch" ng-model="searchCtrl.searchTerm" ng-change="searchCtrl.doSearch()" ng-model-options="{ updateOn: 'default blur', debounce: {'default': 500, 'blur': 0} }" ng-submit="myForm.mySearch.$valid && searchCtrl.doSearch()">
@@ -11,4 +11,3 @@
       </li>
     </ul>
   </div>
-</body>
