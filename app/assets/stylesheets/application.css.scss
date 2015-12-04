@@ -11,8 +11,7 @@
  * file per style scope.
  *
  *= require_self
- *= require bootstrap/dist/css/bootstrap
  *= require_tree .
  */
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap-sprockets";
-@import "bootstrap-sass-official/assets/stylesheets/bootstrap";
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap-sprockets";
+@import "bootstrap-sass-official/assets/stylesheets/_bootstrap";
